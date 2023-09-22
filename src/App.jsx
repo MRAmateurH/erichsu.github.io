@@ -1,7 +1,11 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
+
+import Home from "./components/home/Home";
+import About from "./components/about/About";
+import Project from "./components/project/Project";
+import Dailychrono from "./components/dailychrono/Dailychrono";
+
+import { Routes, Route } from "react-router-dom";
 
 // function App() {
 //   const [count, setCount] = useState(0)
