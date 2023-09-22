@@ -1,7 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
-// import "./../css/styles.css";
 
 import NavbarComp from "./../template/NavbarComp";
 import Footer from "./../template/Footer";
