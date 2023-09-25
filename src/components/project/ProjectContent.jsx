@@ -20,31 +20,6 @@ const ProjectImg = () => {
 	);
 };
 
-const ProjectCard = () => {
-	return (
-		<div className="work-container">
-			<h1 className="project-heading">Project</h1>
-			<div className="project-container">
-				<div className="project-card">
-					<img src={portfolio_1} alt="..." />
-					<h2 className="project-title">DailyChrono</h2>
-					<div className="project-details">
-						<p>This is description</p>
-						<div className="project-btn">
-							<NavLink to="/" className="button">
-								view
-							</NavLink>
-							<NavLink to="/" className="button">
-								source
-							</NavLink>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	);
-};
-
 const PythonProject = () => {
 	return (
 		<section class="content-section" id="portfolio">

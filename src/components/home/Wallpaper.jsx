@@ -14,10 +14,13 @@ const Wallpaper = () => {
 				<p>Wei-Chen(Eric), Hsu</p>
 				<h1>Software Engineer</h1>
 				<div>
-					<Link to="/about" className="button">
+					<Link to="/erichsu.github.io/about" className="button">
 						About
 					</Link>
-					<Link to="/project" className="button button-light">
+					<Link
+						to="/erichsu.github.io/project"
+						className="button button-light"
+					>
 						Project
 					</Link>
 				</div>

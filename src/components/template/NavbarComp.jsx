@@ -29,10 +29,10 @@ const NavbarComp = () => {
 					<Link to="/erichsu.github.io/">Home</Link>
 				</li>
 				<li>
-					<Link to="/about">About</Link>
+					<Link to="/erichsu.github.io/about">About</Link>
 				</li>
 				<li>
-					<Link to="/project">Project</Link>
+					<Link to="/erichsu.github.io/project">Project</Link>
 				</li>
 			</ul>
 			<div className="menu-toggle rounded" onClick={handleClick}>
