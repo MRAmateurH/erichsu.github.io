@@ -3,7 +3,9 @@ import "./App.css";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Project from "./components/project/Project";
+
 import Newsscraper from "./routes/News";
+import Budget from "./routes/Budget";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -20,6 +22,10 @@ function App() {
 				<Route
 					path="/erichsu.github.io/newsscraper"
 					element={<Newsscraper />}
+				/>
+				<Route
+					path="/erichsu.github.io/budgettracker"
+					element={<Budget />}
 				/>
 			</Routes>
 		</>

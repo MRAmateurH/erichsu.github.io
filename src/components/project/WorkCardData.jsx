@@ -7,17 +7,17 @@ const WorkCardData = [
 	{
 		imgsrc: portfolio_1,
 		title: "News Scraper",
-		text: "This is News Scraper",
+		text: "Using Selenium to scrape the CNN news.",
 		view: "/erichsu.github.io/newsscraper",
 	},
 	{
 		imgsrc: portfolio_2,
-		title: "Coming soon...",
-		text: "Coming soon...",
-		view: "#",
+		title: "Budget Tracker",
+		text: "Using Material UI to create an APP to track the budget.",
+		view: "/erichsu.github.io/budgettracker",
 	},
 	{
-		imgsrc: portfolio_2,
+		imgsrc: portfolio_4,
 		title: "Coming soon...",
 		text: "Coming soon...",
 		view: "#",
